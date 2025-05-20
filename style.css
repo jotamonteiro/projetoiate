@@ -1,0 +1,84 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: #21272B;
+    color: white;
+    padding: 20px 0;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+
+.menu h1{
+    color: turquoise;
+    font-size: 22px;
+}
+
+.menu h2{
+    color: white;
+    font-size: 18px;
+}
+
+.menu-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-img {
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-pages{
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu-pages a {
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-right: 1px solid #444;
+}
+
+.menu-pages li {
+    list-style: none;
+}
+
+.menu-pages ul {
+    display: flex;
+
+}
+
+.menu-pages a:hover {
+    background-color: #444;
+    transition: background-color 0.3s;
+}
+
+.menu-pages a:last-child {
+    border-right: none;
+}
+

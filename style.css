@@ -8,7 +8,7 @@
 body {
     background-color: #EBEBEB;
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 0px 50px 0px 50px ;
 }
 
 header {
@@ -25,7 +25,7 @@ header {
 
 
 .menu h1{
-    color: turquoise;
+    color: #1BB4E8;
     font-size: 22px;
 }
 
@@ -59,13 +59,14 @@ nav {
     color: white;
     text-decoration: none;
     padding: 0 20px;
-    font-size: 14px;
+    font-size: 12px;
     text-transform: uppercase;
     border-right: 1px solid #444;
 }
 
 .menu-pages li {
     list-style: none;
+    
 }
 
 .menu-pages ul {
@@ -82,3 +83,45 @@ nav {
     border-right: none;
 }
 
+.principal-img{
+    width: 100%;
+    position: relative;
+}
+
+#img {
+    width: 100%;
+}
+
+.principal-texto {
+    background-color: #1a3243de;
+    position: absolute;
+    bottom: 10px;
+    right: 90px;
+    width: 510px;
+}
+
+.p-texto-1 {
+    font-size: 1.5em;
+    color: #EBEBEB;
+    padding: 10px;
+}
+
+.p-texto-2 {
+    color: #EBEBEB;
+    font-size: 1.1em;
+}
+
+.principal-texto-logo {
+    display: flex;
+    padding: 10px;
+}
+
+.principal-texto-2 {
+    padding: 15px;
+}
+
+.menu-pages-mv {
+    position: absolute;
+    right: 60px;
+    top: 65px;
+}
